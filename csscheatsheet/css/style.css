@@ -17,8 +17,55 @@ body{
 .box-1{
   background-color:#333333;
   color:#ffffff;
+
+  /* Border */
+  border: red solid;
+  border-width:3px;
+
+  border-right: 5px red solid ;
+  border-right-style: dotted;
+
+  /* Padding */
+  padding:20px;
+
+  /* Margin */
+  margin: 20px 0;
+
+}
+
+.box-1 h1{
+  font-family:Tahoma;
+  font-weight: 800;
+  font-style: italic;
+  text-decoration: underline;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  word-spacing: 1em;
+}
+
+.box-2{
+  border:3px dotted #ccc;
+  padding:20px;
+  margin: 20px 0;
+}
+
+.categories{
+  border:1px #ccc solid;
+  padding:10px;
+  border-radius:15px;
+}
+
+.categories h2{
+  text-align:center;
+}
+
+.categories ul{
+  padding:0;
+  /*list-style: square;*/
+  list-style:none;
 }
 
 .container{
-  width:500px
+  width:80%;
+  margin:auto;
 }
