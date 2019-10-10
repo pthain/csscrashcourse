@@ -137,3 +137,62 @@ a:visited{
   padding:10px;
   box-sizing: border-box;
 }
+
+/* Float element by ID */
+#main-block{
+  float:left;
+  width:70%;
+}
+
+#sidebar{
+  float:right;
+  width:30%;
+  background-color: #333;
+  color:#fff;
+  padding:15px;
+  box-sizing: border-box;
+}
+
+/* POSITION */
+.p-box{
+  margin-top:30px;
+  width:800px;
+  height:500px;
+  border:1px solid black;
+  position: relative;
+  background-image:url('../images/bgimage.jpg');
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+.p-box h1{
+  position: absolute;
+  top: 40px;
+  left:200px;
+}
+
+.p-box h1{
+  position: absolute;
+  bottom: 40px;
+  Right:200px;
+}
+
+.fix-me{
+  position: fixed;
+  top:400px;
+}
+
+.std-list li:first-child{
+  background: red;
+}
+
+.std-list li:last-child{
+  background: blue;
+}
+
+.std-list li:nth-child(5){
+  background: yellow;
+}
+
+.std-list li:nth-child(even){
+  background: grey;
+}
