@@ -170,10 +170,10 @@ a:visited{
   left:200px;
 }
 
-.p-box h1{
+.p-box h2{
   position: absolute;
   bottom: 40px;
-  Right:200px;
+  right: 200px;
 }
 
 .fix-me{
